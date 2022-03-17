@@ -1,4 +1,4 @@
-# RP4Win (Setup scripts for Windows)
+# RP4Win (Setup scripts for Windows&trade;)
 
 If you like my project and would like to donate click the button below.
 
