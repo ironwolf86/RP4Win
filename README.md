@@ -106,20 +106,20 @@ They are listed below along with the location to copy BIOS file too.
 
 There are 3 options for automated installation.
 
-### 1. No ROM Dirs
+### **1. No ROM Dirs**
 
 This option is if you **do not** wish to use the default ROM directories (`C:\RP4Win\ROMS`)<br/>
 Once the setup is completed you will need to edit the **es_systems.cfg** file to change the ROM directories to your liking.<br/>
 This option is great for people who have ROMS on another drive (like me), or just do not wish to use the default folder.
 
-### 2. Default Installer
+### **2. Default Installer**
 
 This option handles the ROM directories for you.<br/>
 It creates a system folder for most supported ROMS.<br/>
 Once installation completes the ROMS folder is opened and you can transfer ROMs into the system folders.<br/>
 This option is great for people who do not have gigantic (1TB+) collections and can easily fit their ROMs on the `C:\` drive.
 
-### 3. Custom Installer
+### **3. Custom Installer**
 
 This option is to setup ROM directories like option 2, but in a place of your choosing.<br/>
 You will be prompted to enter the main folder you'd like to use for roms.
@@ -191,34 +191,34 @@ E:\ROMS\zxspectrum
 
 And a system config file for EmulationStation will be generated to make adding ROMS drag and drop
 
-#### Once the automated installer is done simply double click the EmulationStation icon on your desktop
+**Once the automated installer is done simply double click the EmulationStation icon on your desktop**
 
 # Manage EmulationStation
 
-### Update/Install EmulationStation
+### **Update/Install EmulationStation**
 
 This is for updating EmulationStation.<br/>
 It also backs up your current EmulationStation to `C:\RP4Win\Backups` with a timestamped .zip file.<br/>
 The backup is in case something breaks with a newer build when updating.
 
-### Manage es_systems.cfg
+### **Manage es_systems.cfg**
 
 This is for generating and editing es_systems.cfg
 
-### Manage EmulationStation Themes
+### **Manage EmulationStation Themes**
 
 This tool has several features, and will setup GIT to `C:\RP4Win\Tools\Git` 
 
-#### Install/Update All Themes
+#### **Install/Update All Themes**
 
 Relatively Self explanatory. This installs every available theme for EmulationStation.
 		
-#### Install/Update Individual Themes
+#### **Install/Update Individual Themes**
 
 This option lets you select the theme you want by name and install 1 by one. <br/>
 Useful if you don't wish to install 80 themes and just want a specific one.
 		
-#### Theme Gallery/Previews
+#### **Theme Gallery/Previews**
 
 This downloads previews for all available themes and writes them to a HTML file.<br/>
 The HTML file is them launched with your default browser.<br/>
@@ -227,15 +227,15 @@ This is to help with the Individual theme downloader so you can see what you're 
 		
 # Manage RetroArch
 
-### Install RetroArch 1.6.7
+### **Install RetroArch 1.6.7**
 
 This installs the latest Stable Build of RetroArch. In case you wanted to revert from a nightly build.
 
-### Update RetroArch to the Latest Nightly Build
+### **Update RetroArch to the Latest Nightly Build**
 
 Updates RetroArch, self explanatory.
 
-### Generate Clean RetroArch.cfg
+### **Generate Clean RetroArch.cfg**
 
 This generates a RetroArch.cfg with nearly default settings<br/>
 Changes made are as follows:
@@ -243,7 +243,7 @@ Changes made are as follows:
 - All Games Start in Fullscreen.
 - You can bring up the RetroArch menu with Start and Select
 	
-### Update RetroArch Cores to the Latest Nightly Build
+### **Update RetroArch Cores to the Latest Nightly Build**
 
 Self Explanatory<br/>
 This updates all RetroArch Cores (108 total)
@@ -269,28 +269,28 @@ You can also Share the ROM Directories from here if using a dedicated Emulator B
 
 # Manage Dedicated EmuBox Settings
 
-### Setup All Dedicated Emubox Settings
+### **Setup All Dedicated Emubox Settings**
 
 This option will do a full setup and turn your RP4Win Installation into a Dedicate Emu Box.<br/>
 This option includes installation of all of the options below.<br/>
 The only user requires input is during the Auto Login setup.<br/>
 This is due to how Windows handles Auto login.
 
-### RP4Win Auto Start Options  
+### **RP4Win Auto Start Options**  
 
 From here you can select if you'd like to automatically start RP4Win (EmulationStation) upon login.<br/>
 This goes hand in hand with Auto Login.<br/>
 You can also remove the Auto Start settings if you no longer with to have Auto Start.
 
-### Setup Auto Login
+### **Setup Auto Login**
 
 Self Explanatory.<br/>
 Opens the netplwiz menu.<br/>
 Guides you through setting up Auto Login.
 
-### Setup RP4Win Folder Shares 
+### **Setup RP4Win Folder Shares** 
 
-#### Setup RP4Win Shares With Default Rom Directory
+#### **Setup RP4Win Shares With Default Rom Directory**
  
 Sets up the following shares:
 
@@ -301,7 +301,7 @@ Sets up the following shares:
     
 The ROMS folder uses the default `C:\RP4Win\ROMS`
 
-#### Setup RP4Win Shares With Custom Rom Directory
+#### **Setup RP4Win Shares With Custom Rom Directory**
 
 Sets up the following shares
 
@@ -313,12 +313,12 @@ Sets up the following shares
 You will be asked to enter the ROMS directory.<br/>
 This option is if you installed using a custom ROMS directory.
 
-#### Remove RP4Win Shares
+#### **Remove RP4Win Shares**
 
 Self Explanatory.<br/>
 Removes all shares created by this script.
 
-### Setup System Name
+### **Setup System Name**
 
 From here you can set your PC's hostname to the default RP4Win, or to any custom hostname you'd like.<br/>
 This is to make it easier to access the shares on the computer.
