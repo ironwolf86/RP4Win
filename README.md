@@ -99,6 +99,8 @@ They are listed below along with the location to copy BIOS file too.
 
 #### Once the automated installer is done simply double click the EmulationStation icon on your desktop
 
+---
+
 # The List Of Features Is As Follows:
 
 # Automated Installers
@@ -123,7 +125,7 @@ This option is great for people who do not have gigantic (1TB+) collections and 
 This option is to setup ROM directories like option 2, but in a place of your choosing.<br/>
 You will be prompted for the main folder you'd like to use.
 
-Syntax: E:\\ROMS, D:\\Games, F:\\Retro, etc.<br/>
+Syntax: `E:\ROMS`, `D:\Games`, `F:\Retro`, etc.<br/>
 No trailing \\
 
 All system subdirectories will be added to the folder specified.<br/>
@@ -188,8 +190,7 @@ E:\ROMS\wii
 E:\ROMS\zxspectrum
 ```
 
-And a config file for EmulationStation will be generated to make adding ROMS drag and drop
-
+And a system config file for EmulationStation will be generated to make adding ROMS drag and drop
 
 ### Manage EmulationStation
 
