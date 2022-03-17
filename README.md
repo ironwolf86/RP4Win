@@ -81,19 +81,24 @@ If you find a bug, or have a feature request please use the [github issue tracke
 ## Some Systems Require BIOS files
 They are listed below along with location to copy BIOS file too.
 
-	Amiga         C:\RP4Win\RetroArch\system\kick13.rom OR C:\RP4Win\RetroArch\system\kick20.rom OR C:\RP4Win\RetroArch\system\kick31.rom
-	Atari800      C:\RP4Win\RetroArch\system\ATARIXL.ROM (BIOS for Atari XL/XE OS) OR C:\RP4Win\RetroArch\system\ATARIBAS.ROM (BIOS for the BASIC interpreter) OR C:\RP4Win\RetroArch\system\ATARIOSA.ROM (BIOS for Atari 400/800 PAL) OR C:\RP4Win\RetroArch\system\ATARIOSB.ROM (BIOS for Atari 400/800 NTSC) OR C:\RP4Win\RetroArch\system\5200.ROM (BIOS for the Atari 5200)
-	Atari 7800    C:\RP4Win\RetroArch\system\7800 BIOS (U).rom
-	CoCo          C:\RP4Win\RetroArch\system\bas13.rom
-	Dragon32      C:\RP4Win\RetroArch\system\d32.rom
-	Dreamcast     C:\RP4Win\RetroArch\system\dc_boot.bin AND C:\RP4Win\RetroArch\system\dc_flash.bin
-	FDS           C:\RP4Win\RetroArch\system\disksys.rom
-	gba           C:\RP4Win\RetroArch\system\gba_bios.bin
-	psx           C:\RP4Win\RetroArch\system\SCPH1001.BIN
-	PS2           C:\RP4Win\Emulators\PCSX2\bios\ANYPS2BIOS.bin
-	neo geo       C:\PATH\TO\ROMS\neogeo\neogeo.zip
-	sega cd       C:\RP4Win\RetroArch\system\us_scd1_9210.bin (or rename to bios_CD_U.bin) OR eu_mcd1_9210.bin (or rename to bios_CD_E.bin) OR jp_mcd1_9112.bin (or rename to bios_CD_J.bin) for Europe and Japan respectively
-	Sega Saturn   C:\RP4Win\RetroArch\system\saturn_bios.bin
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
+Amiga         C:\RP4Win\RetroArch\system\kick13.rom OR C:\RP4Win\RetroArch\system\kick20.rom OR C:\RP4Win\RetroArch\system\kick31.rom
+Atari800      C:\RP4Win\RetroArch\system\ATARIXL.ROM (BIOS for Atari XL/XE OS) OR C:\RP4Win\RetroArch\system\ATARIBAS.ROM (BIOS for the BASIC interpreter) OR C:\RP4Win\RetroArch\system\ATARIOSA.ROM (BIOS for Atari 400/800 PAL) OR C:\RP4Win\RetroArch\system\ATARIOSB.ROM (BIOS for Atari 400/800 NTSC) OR C:\RP4Win\RetroArch\system\5200.ROM (BIOS for the Atari 5200)
+Atari 7800    C:\RP4Win\RetroArch\system\7800 BIOS (U).rom
+CoCo          C:\RP4Win\RetroArch\system\bas13.rom
+Dragon32      C:\RP4Win\RetroArch\system\d32.rom
+Dreamcast     C:\RP4Win\RetroArch\system\dc_boot.bin AND C:\RP4Win\RetroArch\system\dc_flash.bin
+FDS           C:\RP4Win\RetroArch\system\disksys.rom
+gba           C:\RP4Win\RetroArch\system\gba_bios.bin
+psx           C:\RP4Win\RetroArch\system\SCPH1001.BIN
+PS2           C:\RP4Win\Emulators\PCSX2\bios\ANYPS2BIOS.bin
+neo geo       C:\PATH\TO\ROMS\neogeo\neogeo.zip
+sega cd       C:\RP4Win\RetroArch\system\us_scd1_9210.bin (or rename to bios_CD_U.bin) OR eu_mcd1_9210.bin (or rename to bios_CD_E.bin) OR jp_mcd1_9112.bin (or rename to bios_CD_J.bin) for Europe and Japan respectively
+Sega Saturn   C:\RP4Win\RetroArch\system\saturn_bios.bin
 
 	
 ### Once the automated installer is done simply double click EmulationStation on your desktop
