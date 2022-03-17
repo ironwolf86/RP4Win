@@ -94,7 +94,7 @@ They are listed below along with location to copy BIOS file too.
 | psx | C:\RP4Win\RetroArch\system\SCPH1001.BIN |
 | PS2 | C:\RP4Win\Emulators\PCSX2\bios\ANYPS2BIOS.bin |
 | neo geo | C:\PATH\TO\ROMS\neogeo\neogeo.zip |
-| sega cd | C:\RP4Win\RetroArch\system\us_scd1_9210.bin (or rename to bios_CD_U.bin) OR <br/>eu_mcd1_9210.bin (or rename to bios_CD_E.bin) OR <br/>jp_mcd1_9112.bin (or rename to bios_CD_J.bin) for Europe and Japan respectively |
+| sega cd | C:\RP4Win\RetroArch\system\us_scd1_9210.bin (or rename to bios_CD_U.bin) OR <br/>C:\RP4Win\RetroArch\system\eu_mcd1_9210.bin (or rename to bios_CD_E.bin) OR <br/>C:\RP4Win\RetroArch\system\jp_mcd1_9112.bin (or rename to bios_CD_J.bin) for Europe and Japan respectively |
 | Sega Saturn | C:\RP4Win\RetroArch\system\saturn_bios.bin |
 
 ### Once the automated installer is done simply double click the EmulationStation icon on your desktop
