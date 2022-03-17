@@ -13,7 +13,7 @@ You can use EmulationStation as a desktop application, or you can setup a Window
 
 **This tool _DOES NOT_ include ROM or BIOS files, they need to be supplied by the end user. (that would be whoever is actually reading this...)**
 
-All RP4Win files are contained in **C:\\RP4Win\\** by default.
+All RP4Win files are contained in **`C:\RP4Win\`** by default.
 
 If you find a bug, or have a feature request please use the [github issue tracker](https://github.com/ironwolf86/RP4Win/issues).
 
@@ -83,7 +83,7 @@ They are listed below along with the location to copy BIOS file too.
 | Syntax | Description |
 | ----------- | ----------- |
 | **System** | **Filepath** |
-| Amiga | C:\RP4Win\RetroArch\system\kick13.rom OR <br/>C:\RP4Win\RetroArch\system\kick20.rom **OR** <br/>C:\RP4Win\RetroArch\system\kick31.rom |
+| Amiga | `C:\RP4Win\RetroArch\system\kick13.rom` **OR** <br/>`C:\RP4Win\RetroArch\system\kick20.rom` **OR** <br/>`C:\RP4Win\RetroArch\system\kick31.rom` |
 | Atari800 | C:\RP4Win\RetroArch\system\ATARIXL.ROM (BIOS for Atari XL/XE OS) **OR** <br/>C:\RP4Win\RetroArch\system\ATARIBAS.ROM (BIOS for the BASIC interpreter) **OR** <br/>C:\RP4Win\RetroArch\system\ATARIOSA.ROM (BIOS for Atari 400/800 PAL) **OR** <br/>C:\RP4Win\RetroArch\system\ATARIOSB.ROM (BIOS for Atari 400/800 NTSC) **OR** <br/>C:\RP4Win\RetroArch\system\5200.ROM (BIOS for the Atari 5200) |
 | Atari 7800 | C:\RP4Win\RetroArch\system\7800 BIOS (U).rom |
 | CoCo | C:\RP4Win\RetroArch\system\bas13.rom |
@@ -192,53 +192,53 @@ E:\ROMS\zxspectrum
 
 And a system config file for EmulationStation will be generated to make adding ROMS drag and drop
 
-### Manage EmulationStation
+# Manage EmulationStation
 
-## Update/Install EmulationStation
+### Update/Install EmulationStation
 
-This is for updating EmulationStation.\
-It also backs up your current EmulationStation to C:\RP4Win\Backups with a timestamped Zip file.\
+This is for updating EmulationStation.<br/>
+It also backs up your current EmulationStation to C:\RP4Win\Backups with a timestamped Zip file.<br/>
 The backup is in case something breaks with a newer build when updating.
 
-## Manage es_systems.cfg
+### Manage es_systems.cfg
 This is for generating and editing es_systems.cfg
 
-## Manage EmulationStation Themes
+### Manage EmulationStation Themes
 
 This tool has several features, and will setup GIT to C:\RP4Win\Tools\Git 
 
-### Install/Update All Themes
+#### Install/Update All Themes
 Relatively Self explanatory. This installs every available theme for EmulationStation.
 		
-### Install/Update Individual Themes
-This option lets you select the theme you want by name and install 1 by one. \
+#### Install/Update Individual Themes
+This option lets you select the theme you want by name and install 1 by one. <br/>
 Useful if you do like wish to install 80 themes and just want a specific one.
 		
-### Theme Gallery/Previews
-This downloads previews for all available themes and writes them to a HTML file.\
-The HTML file is them launched with your default browser.\
-Hover over the image to see which theme it belongs to.\
+#### Theme Gallery/Previews
+This downloads previews for all available themes and writes them to a HTML file.<br/>
+The HTML file is them launched with your default browser.<br/>
+Hover over the image to see which theme it belongs to.<br/>
 This is to help with the Individual theme downloader so you can see what you're getting.
 		
 # Manage RetroArch
 
-## Install RetroArch 1.6.7
+### Install RetroArch 1.6.7
 
 This installs the latest Stable Build of RetroArch. In case you wanted to revert from a nightly build.
 
-## Update RetroArch to the Latest Nightly
+### Update RetroArch to the Latest Nightly
 
 Updates RetroArch, self explanatory.
 
-## Generate Clean RetroArch.cfg
+### Generate Clean RetroArch.cfg
 
-This generates a RetroArch.cfg with nearly default settings\
+This generates a RetroArch.cfg with nearly default settings<br/>
 Changes made are as follows:
 
 	All Games Start in Fullscreen.
 	You can bring up the RetroArch menu with Start and Select
 	
-## Update RetroArch Cores to the Latest Nightly Build
+### Update RetroArch Cores to the Latest Nightly Build
 
 Self Explanatory
 This updates all RetroArch Cores (108 total)
@@ -258,34 +258,34 @@ Current emulators are:
 
 # Manage ROM Directories
 
-This creates the default ROM directories in C:\RP4Win\ROMS\
-You can also create custom ROM directories like E:\ROMS\
+This creates the default ROM directories in C:\RP4Win\ROMS<br/>
+You can also create custom ROM directories like E:\ROMS<br/>
 You can also Share the ROM Directories from here if using a dedicated Emulator Box.
 
 # Manage Dedicated EmuBox Settings
 
-## Setup All Dedicated Emubox Settings
+### Setup All Dedicated Emubox Settings
 
-This option will do a full setup and turn your RP4Win Installation into a Dedicate Emu Box.\
-This option includes installation of all of the options below.\
-The only user requires input is during the Auto Login setup.\
+This option will do a full setup and turn your RP4Win Installation into a Dedicate Emu Box.<br/>
+This option includes installation of all of the options below.<br/>
+The only user requires input is during the Auto Login setup.<br/>
 This is due to how Windows handles Auto login.
 
-## RP4Win Auto Start Options  
+### RP4Win Auto Start Options  
 
-From here you can select if you'd like to Automatically start RP4Win (EmulationStation) upon login.\
-This goes hand in hand with Auto Login.\
+From here you can select if you'd like to Automatically start RP4Win (EmulationStation) upon login.<br/>
+This goes hand in hand with Auto Login.<br/>
 You can also remove the Auto Start settings if you no longer with to have Auto Start.
 
-## Setup Auto Login
+### Setup Auto Login
 
-Self Explanatory.\
-Opens the netplwiz menu.\
+Self Explanatory.<br/>
+Opens the netplwiz menu.<br/>
 Guides you through setting up Auto Login.
 
-## Setup RP4Win Folder Shares 
+### Setup RP4Win Folder Shares 
 
-### Setup RP4Win Shares With Default Rom Directory
+#### Setup RP4Win Shares With Default Rom Directory
  
 Sets up the following shares
 
@@ -296,7 +296,7 @@ Sets up the following shares
     
 The ROMS folder uses the default C:\RP4Win\ROMS
 
-### Setup RP4Win Shares With Custom Rom Directory
+#### Setup RP4Win Shares With Custom Rom Directory
 
 Sets up the following shares
 
@@ -305,21 +305,21 @@ Sets up the following shares
 	EMULATORS
 	EmulationStation
 
-You will be asked to enter the ROMS directory.\
+You will be asked to enter the ROMS directory.<br/>
 This option is if you installed using a custom ROMS directory.
 
-### Remove RP4Win Shares
+#### Remove RP4Win Shares
 
-Self Explanatory.\
+Self Explanatory.<br/>
 Removes all shares created by this script.
 
-## Setup System Name
+### Setup System Name
 
-From here you can set your PC's hostname to the default RP4Win, or to any custom hostname you'd like.\
+From here you can set your PC's hostname to the default RP4Win, or to any custom hostname you'd like.<br/>
 This is to make it easier to access the shares on the computer.
 
 
 # System Cleanup
 
-This option is for cleaning up parts of RP4Win or removing RP4Win entirely.\
+This option is for cleaning up parts of RP4Win or removing RP4Win entirely.<br/>
 Mostly used by me for Testing, but if anyone needs to clean up and remove files this is for you.
