@@ -116,7 +116,7 @@ This option is great for people who have ROMS on another drive (like me), or jus
 This option handles the ROM directories for you.<br/>
 It creates a system folder for most supported ROMS.<br/>
 Once installation completes the ROMS folder is opened and you can transfer ROMs into the system folders.<br/>
-This option is great for people who do not have gigantic (1TB+) collections and can easily fit their ROMs on the C: drive.
+This option is great for people who do not have gigantic (1TB+) collections and can easily fit their ROMs on the C:\\ drive.
 
 #### Custom Installer
 
@@ -128,7 +128,7 @@ No trailing \\
 
 All system subdirectories will be added to the folder specified.<br/>
 Example:<br/>
-If E:\\ROMS is specified the following folders will be created
+If `E:\ROMS` is specified the following folders will be created:
 
 E:\ROMS\3do
 E:\ROMS\ags
