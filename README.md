@@ -14,7 +14,7 @@ You can use EmulationStation as a desktop application, or you can setup a Window
 
 **This tool _DOES NOT_ include ROM or BIOS files, they need to be supplied by the end user. (that would be whoever is actually reading this...)**
 
-All RP4Win files are contained in **C:\RP4Win\** by default.
+All RP4Win files are contained in **C:/RP4Win/** by default.
 
 If you find a bug, or have a feature request please use the [github issue tracker](https://github.com/ironwolf86/RP4Win/issues).
 
