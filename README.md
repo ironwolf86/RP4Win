@@ -83,9 +83,7 @@ They are listed below along with location to copy BIOS file too.
 
 | Syntax | Description |
 | ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
-
+| System | Filepath |
 | Amiga | C:\RP4Win\RetroArch\system\kick13.rom OR C:\RP4Win\RetroArch\system\kick20.rom OR C:\RP4Win\RetroArch\system\kick31.rom |
 | Atari800 | C:\RP4Win\RetroArch\system\ATARIXL.ROM (BIOS for Atari XL/XE OS) OR C:\RP4Win\RetroArch\system\ATARIBAS.ROM (BIOS for the BASIC interpreter) OR C:\RP4Win\RetroArch\system\ATARIOSA.ROM (BIOS for Atari 400/800 PAL) OR C:\RP4Win\RetroArch\system\ATARIOSB.ROM (BIOS for Atari 400/800 NTSC) OR C:\RP4Win\RetroArch\system\5200.ROM (BIOS for the Atari 5200) |
 | Atari 7800 | C:\RP4Win\RetroArch\system\7800 BIOS (U).rom |
