@@ -78,7 +78,7 @@ If you find a bug, or have a feature request please use the [github issue tracke
 - zxspectrum
 
 ## Some Systems Require BIOS files
-They are listed below along with location to copy BIOS file too.
+They are listed below along with the location to copy BIOS file too.
 
 | Syntax | Description |
 | ----------- | ----------- |
@@ -97,46 +97,46 @@ They are listed below along with location to copy BIOS file too.
 | sega cd | C:\RP4Win\RetroArch\system\us_scd1_9210.bin (or rename to bios_CD_U.bin) **OR** <br/>C:\RP4Win\RetroArch\system\eu_mcd1_9210.bin (or rename to bios_CD_E.bin) **OR** <br/>C:\RP4Win\RetroArch\system\jp_mcd1_9112.bin (or rename to bios_CD_J.bin) *for Europe and Japan respectively* |
 | Sega Saturn | C:\RP4Win\RetroArch\system\saturn_bios.bin |
 
-### Once the automated installer is done simply double click the EmulationStation icon on your desktop
+#### Once the automated installer is done simply double click the EmulationStation icon on your desktop
 
-#### The List Of Features Is As Follows:
+## The List Of Features Is As Follows:
 
-# Automated Installers
+### Automated Installers
 
 There are 3 options for automated installation.
 
-## No ROM Dirs
+#### No ROM Dirs
 
-This option is if you do not wish to use the default ROM directories (C:\RP4Win\ROMS)\
-Once the setup is completed you will need to edit the es_systems.cfg to change the ROM directories to your liking.\
+This option is if you **do not** wish to use the default ROM directories (C:\\RP4Win\\ROMS)<br/>
+Once the setup is completed you will need to edit the es_systems.cfg file to change the ROM directories to your liking.<br/>
 This option is great for people who have ROMS on another drive (like me), or just do not wish to use the default folder.
 
-## Default Installer
+#### Default Installer
 
-This option handles the ROM directories for you.\
-It creates a system folder for most supported ROMS.\
-Once installation completes the ROMS folder is opened and you can transfer ROMs into the system folders.\
+This option handles the ROM directories for you.<br/>
+It creates a system folder for most supported ROMS.<br/>
+Once installation completes the ROMS folder is opened and you can transfer ROMs into the system folders.<br/>
 This option is great for people who do not have gigantic (1TB+) collections and can easily fit their ROMs on the C: drive.
 
-## Custom Installer
+#### Custom Installer
 
-This option is to setup ROM directories like option 2, but in a place of your choosing.\
+This option is to setup ROM directories like option 2, but in a place of your choosing.<br/>
 You will be prompted for the main folder you'd like to use.
 
-Syntax: E:\ROMS, D:\Games, F:\Retro, etc.\
+Syntax: E:\\ROMS, D:\\Games, F:\\Retro, etc.<br/>
 No trailing \\
 
-All system subdirectories will be added to the folder specified.\
-EX:\
-If E:\ROMS is specified the following folders will be created
+All system subdirectories will be added to the folder specified.<br/>
+Example:<br/>
+If E:\\ROMS is specified the following folders will be created
 
-	E:\ROMS\3do
-	E:\ROMS\ags
-	E:\ROMS\amiga
-	E:\ROMS\amstradcpc
-	E:\ROMS\apple2
-	E:\ROMS\atari2600
-	E:\ROMS\atari5200
+E:\ROMS\3do
+E:\ROMS\ags
+E:\ROMS\amiga
+E:\ROMS\amstradcpc
+E:\ROMS\apple2
+E:\ROMS\atari2600
+E:\ROMS\atari5200
 	E:\ROMS\atari7800
 	E:\ROMS\atari800
 	E:\ROMS\atarijaguar
