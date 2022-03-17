@@ -8,8 +8,7 @@ If you like my project and would like to donate click the button below.
 
 # What Does This Do?
 
-RP4Win is a batch script tool used to setup a RetroPie-like environment on Windows Operating Systems.
-
+RP4Win is a batch script tool used to setup a RetroPie-like environment on Windows Operating Systems.<br/>
 You can use EmulationStation as a desktop application, or you can setup a Windows machine to be a dedicated Emulator Machine.
 
 **This tool _DOES NOT_ include ROM or BIOS files, they need to be supplied by the end user. (that would be whoever is actually reading this...)**
@@ -83,7 +82,7 @@ They are listed below along with location to copy BIOS file too.
 
 | Syntax | Description |
 | ----------- | ----------- |
-| System | Filepath |
+| **System** | **Filepath** |
 | Amiga | C:\RP4Win\RetroArch\system\kick13.rom OR <br/>C:\RP4Win\RetroArch\system\kick20.rom OR <br/>C:\RP4Win\RetroArch\system\kick31.rom |
 | Atari800 | C:\RP4Win\RetroArch\system\ATARIXL.ROM (BIOS for Atari XL/XE OS) OR <br/>C:\RP4Win\RetroArch\system\ATARIBAS.ROM (BIOS for the BASIC interpreter) OR <br/>C:\RP4Win\RetroArch\system\ATARIOSA.ROM (BIOS for Atari 400/800 PAL) OR <br/>C:\RP4Win\RetroArch\system\ATARIOSB.ROM (BIOS for Atari 400/800 NTSC) OR <br/>C:\RP4Win\RetroArch\system\5200.ROM (BIOS for the Atari 5200) |
 | Atari 7800 | C:\RP4Win\RetroArch\system\7800 BIOS (U).rom |
@@ -98,8 +97,7 @@ They are listed below along with location to copy BIOS file too.
 | sega cd | C:\RP4Win\RetroArch\system\us_scd1_9210.bin (or rename to bios_CD_U.bin) OR <br/>eu_mcd1_9210.bin (or rename to bios_CD_E.bin) OR <br/>jp_mcd1_9112.bin (or rename to bios_CD_J.bin) for Europe and Japan respectively |
 | Sega Saturn | C:\RP4Win\RetroArch\system\saturn_bios.bin |
 
-	
-### Once the automated installer is done simply double click EmulationStation on your desktop
+### Once the automated installer is done simply double click the EmulationStation icon on your desktop
 
 #### The List Of Features Is As Follows:
 
