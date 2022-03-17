@@ -98,8 +98,6 @@ They are listed below along with the location to copy BIOS file too.
 | sega cd | `C:\RP4Win\RetroArch\system\us_scd1_9210.bin` (or rename to bios_CD_U.bin) **OR** <br/>`C:\RP4Win\RetroArch\system\eu_mcd1_9210.bin` (or rename to bios_CD_E.bin) **OR** <br/>`C:\RP4Win\RetroArch\system\jp_mcd1_9112.bin` (or rename to bios_CD_J.bin) *for Europe and Japan respectively* |
 | Sega Saturn | `C:\RP4Win\RetroArch\system\saturn_bios.bin` |
 
-#### Once the automated installer is done simply double click the EmulationStation icon on your desktop
-
 ---
 
 # The List Of Features Is As Follows:
@@ -192,6 +190,8 @@ E:\ROMS\zxspectrum
 ```
 
 And a system config file for EmulationStation will be generated to make adding ROMS drag and drop
+
+#### Once the automated installer is done simply double click the EmulationStation icon on your desktop
 
 # Manage EmulationStation
 
