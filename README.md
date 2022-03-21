@@ -13,7 +13,7 @@ You can use EmulationStation as a desktop application, or you can setup a Window
 
 **This tool _DOES NOT_ include ROM or BIOS files, they need to be supplied by the end user. (that would be whoever is actually reading this...)**
 
-All RP4Win files are contained in **`C:\RP4Win\`** by default.
+All RP4Win files are contained in **`(DRIVE):\RP4Win\`** by default.
 
 If you find a bug, or have a feature request please use the [github issue tracker](https://github.com/ironwolf86/RP4Win/issues).
 
@@ -106,26 +106,22 @@ They are listed below along with the location to copy BIOS file too.
 
 There are 3 options for automated installation.
 
-### **1. No ROM Dirs**
-
-This option is if you **do not** wish to use the default ROM directories (`C:\RP4Win\ROMS`)<br/>
-Once the setup is completed you will need to edit the **es_systems.cfg** file to change the ROM directories to your liking.<br/>
-This option is great for people who have ROMS on another drive (like me), or just do not wish to use the default folder.
-
-### **2. Default Installer**
+### **1. Default Installer**
 
 This option handles the ROM directories for you.<br/>
 It creates a system folder for most supported ROMS.<br/>
 Once installation completes the ROMS folder is opened and you can transfer ROMs into the system folders.<br/>
-This option is great for people who do not have gigantic (1TB+) collections and can easily fit their ROMs on the `C:\` drive.
+This option is great for people who do not have gigantic (1TB+) collections and can easily fit their ROMs on the installation drive.
 
-### **3. Custom Installer**
+---
 
-This option is to setup ROM directories like option 2, but in a place of your choosing.<br/>
+### **2. Custom Installer**
+
+This option is to setup ROM directories like option 1, but in a place of your choosing.<br/>
 You will be prompted to enter the main folder you'd like to use for roms.
 
 Syntax: `E:\ROMS`, `D:\Games`, `F:\Retro`, etc.<br/>
-No trailing \\
+No trailing \\ after the rom path!!
 
 All system subdirectories will be added to the folder specified.<br/>
 Example:<br/>
@@ -191,6 +187,16 @@ E:\ROMS\zxspectrum
 
 And a system config file for EmulationStation will be generated to make adding ROMS drag and drop
 
+---
+
+### **3. No ROM Dirs**
+
+This option is if you **do not** wish to use the default ROM directories (`C:\RP4Win\ROMS`)<br/>
+Once the setup is completed you will need to edit the **es_systems.cfg** file to change the ROM directories to your liking.<br/>
+This option is great for people who have ROMS on another drive (like me), or just do not wish to use the default folder.
+
+---
+
 **Once the automated installer is done simply double click the EmulationStation icon on your desktop**
 
 # Manage EmulationStation
@@ -207,7 +213,7 @@ This is for generating and editing es_systems.cfg
 
 ### **Manage EmulationStation Themes**
 
-This tool has several features, and will setup GIT to `C:\RP4Win\Tools\Git` 
+This tool has several features, and will setup GIT to `(DRIVE):\RP4Win\Tools\Git` 
 
 #### **Install/Update All Themes**
 
@@ -263,7 +269,7 @@ Current emulators are:
 
 # Manage ROM Directories
 
-This creates the default ROM directories in `C:\RP4Win\ROMS`<br/>
+This creates the default ROM directories in `(DRIVE):\RP4Win\ROMS`<br/>
 You can also create custom ROM directories like `E:\ROMS`<br/>
 You can also Share the ROM Directories from here if using a dedicated Emulator Box.
 
@@ -299,7 +305,7 @@ Sets up the following shares:
 - EMULATORS
 - EmulationStation
     
-The ROMS folder uses the default `C:\RP4Win\ROMS`
+The ROMS folder uses the default `(DRIVE):\RP4Win\ROMS`
 
 #### **Setup RP4Win Shares With Custom Rom Directory**
 
