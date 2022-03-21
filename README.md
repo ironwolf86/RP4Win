@@ -191,7 +191,7 @@ And a system config file for EmulationStation will be generated to make adding R
 
 ### **3. No ROM Dirs**
 
-This option is if you **do not** wish to use the default ROM directories (`C:\RP4Win\ROMS`)<br/>
+This option is if you **do not** wish to use the default ROM directories (`(DRIVE):\RP4Win\EmualationStation\.emulationstation\roms`)<br/>
 Once the setup is completed you will need to edit the **es_systems.cfg** file to change the ROM directories to your liking.<br/>
 This option is great for people who have ROMS on another drive (like me), or just do not wish to use the default folder.
 
@@ -204,7 +204,7 @@ This option is great for people who have ROMS on another drive (like me), or jus
 ### **Update/Install EmulationStation**
 
 This is for updating EmulationStation.<br/>
-It also backs up your current EmulationStation to `C:\RP4Win\Backups` with a timestamped .zip file.<br/>
+It also backs up your current EmulationStation to `(DRIVE):\RP4Win\Backups` with a timestamped .zip file.<br/>
 The backup is in case something breaks with a newer build when updating.
 
 ### **Manage es_systems.cfg**
