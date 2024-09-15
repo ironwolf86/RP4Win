@@ -297,7 +297,7 @@ echo =    drive you wish to use.                  =
 echo =                                            =
 echo =    Example: D:\                            =
 echo =                                            =
-echo =    You would type D ...                    =
+echo =    You would type: D                       =
 echo =                                            =
 echo =--------------------------------------------=
 echo =                                            =
